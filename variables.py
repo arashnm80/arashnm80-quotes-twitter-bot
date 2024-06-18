@@ -1,6 +1,6 @@
 import os
 
-# twitter tokens
+# twitter tokens (consumer key is the api key)
 # TWITTER_BEARER_TOKEN = os.environ["TWITTER_BEARER_TOKEN"]
 # TWITTER_CONSUMER_KEY = os.environ["TWITTER_CONSUMER_KEY"]
 # TWITTER_CONSUMER_SECRET =os.environ["TWITTER_CONSUMER_SECRET"]
