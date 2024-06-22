@@ -8,4 +8,4 @@ TWITTER_ACCESS_TOKEN = os.environ["TWITTER_ACCESS_TOKEN"]
 TWITTER_ACCESS_TOKEN_SECRET = os.environ["TWITTER_ACCESS_TOKEN_SECRET"]
 
 # settings
-quotes_page_link = "https://raw.githubusercontent.com/arashnm80/arashnm80.github.io/main/handbook/quotes.md"
+quotes_page_link = "https://raw.githubusercontent.com/arashnm80/arashnm80.github.io/main/quotes.md"
