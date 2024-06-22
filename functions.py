@@ -25,8 +25,8 @@ def get_quotes_list():
     api_url = quotes_page_link
     
     response = requests.get(api_url)
-    if response.status_code == requests.codes.ok:
-        quotes_list = response.text.split("\n")
+        # Split the text by newline character and filter out empty strings
+        quotes_list = [line for line in response.text.split('\n') if line.strip()]
 
         # throw away first 5 lines which are titels
         quotes_list = quotes_list[5:]
